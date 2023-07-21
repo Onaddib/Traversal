@@ -10,24 +10,32 @@ namespace DataAccessLayer.Repository
 {
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
-        public void Add(T t)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Delete(T t)
         {
-            throw new NotImplementedException();
+            using var c = new Context();
+            c.Remove(t);
+            c.SaveChanges();
+
         }
 
         public List<T> GetList()
         {
-            throw new NotImplementedException();
+            using var c = new Context();
+            return c.Set<T>().ToList();
+        }
+
+        public void Insert(T t)
+        {
+            using var c = new Context();
+            c.Add(t);
+            c.SaveChanges();
         }
 
         public void Update(T t)
         {
-            throw new NotImplementedException();
+            using var c = new Context();
+            c.Update(t);
+            c.SaveChanges();
         }
     }
 }
