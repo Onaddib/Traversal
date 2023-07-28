@@ -14,6 +14,7 @@ namespace BusinessLayer.Concrete
 
         IAboutDal _aboutDal;
 
+
         public AboutManager(IAboutDal aboutDal)
         {
             _aboutDal = aboutDal;
@@ -21,7 +22,7 @@ namespace BusinessLayer.Concrete
         }
 
 
-        public About GetById(int id)
+        public About TGetByID(int id)
         {
             throw new NotImplementedException();
         }
@@ -46,5 +47,7 @@ namespace BusinessLayer.Concrete
         {
             _aboutDal.Update(t);
         }
+
+       
     }
 }
