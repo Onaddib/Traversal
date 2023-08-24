@@ -28,4 +28,4 @@ namespace TraversalCoreProje.Models
         [Compare("Password", ErrorMessage = "şifreler uyumlu değil")]
         public string ConfirmPassword { get; set; }
     }
-}
+} 

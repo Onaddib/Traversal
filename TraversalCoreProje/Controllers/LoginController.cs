@@ -33,6 +33,8 @@ namespace TraversalCoreProje.Controllers
                 Surname = p.Surname,
                 Email = p.Mail,
                 UserName = p.Username,
+               
+
             };
 
             if(p.Password == p.ConfirmPassword)
@@ -41,7 +43,7 @@ namespace TraversalCoreProje.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("SıgnIn");
+                    return RedirectToAction("SignIn");
                 }
                 else
                 {
@@ -49,7 +51,7 @@ namespace TraversalCoreProje.Controllers
                     {
                         ModelState.AddModelError("", item.Description);
                     }
-                }                 
+                }           
             }
 
             return View();
