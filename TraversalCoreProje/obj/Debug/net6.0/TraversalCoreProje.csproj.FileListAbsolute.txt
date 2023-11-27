@@ -257,3 +257,11 @@ C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\Mi
 C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\Aspose.Cells.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\SkiaSharp.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Onatt\Desktop\TraversalCoreProje\TraversalCoreProje\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
